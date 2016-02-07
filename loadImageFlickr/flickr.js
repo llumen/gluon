@@ -18,7 +18,7 @@ function queryFlickr(callback){
   $.getJSON( photoQuery, {
     // tags: "gluon,winterlab",
     // tagmode: "all",
-    user_id: JOE_USER_ID,
+    user_id: PIETER_USER_ID,
     per_page: 3,
     format: "json"
   })
