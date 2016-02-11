@@ -6,6 +6,6 @@ function setup() {
 
 function draw() {
   line(mouseX,mouseY,pmouseX,pmouseY);
-  //ellipse(mouseX,mouseY,10,10);
+  ellipse(mouseX,mouseY,10,10);
   
 }

@@ -4,13 +4,13 @@ Je moet de link dan toevoegen in de html file die bij je project hoort. Hiervoor
 function setup() {
   createCanvas(600,400);
   textFont("Tangerine");
-  textSize(20)
+  textSize(20);
   
 }
 
 function draw() {
   background(255);
-  text("Hello World, Welcome to The Gluon Winter Lab",mouseX+10,mouseY+10,200,100); //textbox
+  text("Hello World, Welcome to The Gluon Winter Lab",mouseX+10,mouseY+10,50,100); //textbox
 
   
 }

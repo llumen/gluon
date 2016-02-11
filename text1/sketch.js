@@ -5,4 +5,6 @@ function setup() {
 }
 
 function draw() {
-  createCanvas}
+  text("babla",0,22)
+  
+}

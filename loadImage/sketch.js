@@ -1,3 +1,4 @@
+var img;
 //laden van PNG, JPG, SVG en GIF
 function preload(){ // doordat javascript asynchroon is moet je zeker zijn dat je beelden eerst geladen worden.
   img= loadImage("assets/Cair.jpg");
@@ -12,6 +13,6 @@ function draw() {
   var aspect=img.height/img.width;
   var imageWidth=mouseX;
   var imageHeight=imageWidth*aspect;
-  image(img,0,0,imageWidth,imageHeight);
+  image(img,0,0,mouseX,mouseY);
   
 }

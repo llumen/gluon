@@ -5,9 +5,9 @@
 // Example 1-1: stroke and fill
 
 function setup() {
-  createCanvas(480, 270);
-  stroke(0); 
-  fill(255,0,0,100);
+  createCanvas(480, 270); //schermpje maken 
+  stroke(0);  //lijnkleur
+  fill(255,0,255); //vulkleur
 }
 
 function draw() {

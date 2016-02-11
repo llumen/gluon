@@ -25,11 +25,12 @@ function setup() {
 
 function greet(){
   var name=input.value();
-  for(var i=0;i<200;i++){
+  for(var i=0;i<800;i++){
     push();
     translate(random(width),random(height));
     rotate(random(TWO_PI));
-    fill(0,255,random(0,255));
+    fill(0,0,255);
+    //fill(0,255,random(0,255));
     text(name,0,0);
     pop();
   }
